@@ -1,0 +1,159 @@
+/*/*!
+ * FullCalendar v3.8.0
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2017 Adam Shaw
+ *//*!
+ * FullCalendar v3.8.0 Print Stylesheet
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2017 Adam Shaw
+ */
+/* .fc-bg,.fc-bgevent-container,.fc-bgevent-skeleton,.fc-business-container,.fc-event .fc-resizer,.fc-helper-container,.fc-helper-skeleton,.fc-highlight-container,.fc-highlight-skeleton{
+
+ 	display:none 	
+ }
+ 	.fc tbody .fc-row,.fc-time-grid{
+ 	}
+ 	.fc-time-grid .fc-event.fc-not-end:after,.fc-time-grid .fc-event.fc-not-start:before{
+ 		content:"..."
+ 	}
+ 	.fc{
+ 		max-width:100%!important;
+ 	}
+ 	.fc-event{
+ 		color:#000!important;page-break-inside:avoid
+ 	}
+ 	.fc hr,.fc tbody,.fc td,.fc th,.fc thead,.fc-row{
+ 		border-color:#000!important;background:#fff!important;
+ 	}
+ 	.fc tbody .fc-row{
+ 		height:auto!important;
+ 	}
+ 	.fc tbody .fc-row .fc-content-skeleton{
+ 		position:static;padding-bottom:0!important
+ 	}
+ 	.fc tbody .fc-row .fc-content-skeleton tbody tr:last-child td{
+ 		padding-bottom:1em
+ 	}
+ 	.fc tbody .fc-row .fc-content-skeleton table{
+ 		height:1em;
+ 		min-height:100px!important;
+ 	}
+ 	.fc-more,.fc-more-cell{
+ 		display:none!important
+ 	}
+ 	.fc tr.fc-limited{
+ 		display:table-row!important
+ 	}
+ 	.fc td.fc-limited{
+ 		display:table-cell!important
+ 	}
+ 	.fc-agenda-view .fc-axis,.fc-popover{
+ 		display:none
+ 	}
+ 	.fc-slats,.fc-time-grid hr{
+ 		display:none!important
+ 	}
+ 	.fc button,.fc-button-group,.fc-time-grid .fc-event .fc-time span{
+ 		display:none
+ 	}
+ 	.fc-time-grid .fc-content-skeleton{
+ 		position:static
+ 	}
+ 	.fc-time-grid .fc-content-skeleton table{
+ 		height:4em;
+ 	}
+ 	.fc-time-grid .fc-event-container{
+ 		margin:0!important
+ 	}
+ 	.fc-time-grid .fc-event{
+ 		position:static!important;margin:3px 2px!important
+ 	}
+ 	.fc-time-grid .fc-event.fc-not-end{
+ 		border-bottom-width:0px solid !important
+ 	}
+ 	.fc-time-grid .fc-event.fc-not-start{
+ 		border-top-width:0px solid !important
+ 	}
+ 	.fc-time-grid .fc-event .fc-time{
+ 		white-space:normal!important
+ 	}
+ 	.fc-time-grid .fc-event .fc-time:after{
+ 		content:attr(data-full)
+ 	}
+ 	.fc-day-grid-container,.fc-scroller,.fc-time-grid-container{
+ 		overflow:visible!important;height:auto!important;
+ 	}
+ 	.fc-row{
+ 		border:0px solid!important;margin:0!important
+ 	}
+ 	.fc-title .fa-trash{
+ 		float: right;
+ 	}
+ 	.activeDay {
+	  background-color: #ff0000 !important;
+	}
+	.fc-sun { background-color:blue; }*/
+
+.fc-time-grid .fc-event.fc-not-end:after,.fc-time-grid .fc-event.fc-not-start:before{
+ 		content:"..."
+ 	}
+/*.fc{
+	max-width:100%!important;
+}*/
+.fc tbody .fc-row{
+	height:auto!important;
+}
+.fc tbody .fc-row .fc-content-skeleton{
+	padding-bottom:0!important
+}
+.fc tbody .fc-row .fc-content-skeleton table{
+	height:1em;
+	min-height:100px!important;
+}
+.fc-time-grid .fc-content-skeleton table{
+	height:4em;
+}
+.fc-day-grid-container,.fc-scroller,.fc-time-grid-container{
+	overflow:visible!important;height:auto!important;
+}
+.fc-time-grid .fc-event .fc-time:after{
+ 		content:attr(data-full)
+ 	}
+ /*.fc-sun.fc-future { 
+ 	background-color:#00b300; 
+ 	text-decoration: none;
+ 	color: #fff !important;
+ }*/
+/* .fc-sun.fc-future > a { 
+ 	color: #fff !important;
+ 	text-decoration: none;
+ }*/
+/* .fc-sun.fc-past { 
+ 	background-color:#00b300;  	
+ 	opacity: 0.5;
+ }*/
+ /*.fc-sun.fc-past > a { 
+ 	color: #fff !important;
+ 	text-decoration: none;
+ }*/
+ 
+/*.fc-unthemed td.fc-today {
+    background: #2e2e1f;
+}*/
+/*td.fc-event-container {
+    background: #e6e600 !important;
+}*/
+
+
+/*
+event
+#e6e600
+color bold black
+
+current day
+#2e2e1f
+color blue
+
+Theame color code
+#1aa3ff
+*/
